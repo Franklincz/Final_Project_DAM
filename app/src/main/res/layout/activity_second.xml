@@ -13,6 +13,11 @@
         android:text="hello second activity"
 
         ></TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="compartir"
 
+        ></Button>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
