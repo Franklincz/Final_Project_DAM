@@ -1,21 +1,16 @@
-package com.example.final_project_dam;
+package com.example.final_project_dam.IU;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.View;
 
-public class secondActivity extends AppCompatActivity {
+import com.example.final_project_dam.R;
+
+public class Restore_password extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second);
+        setContentView(R.layout.activity_restore_password);
     }
-
-
-
-
-
-
 }

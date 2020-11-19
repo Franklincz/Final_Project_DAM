@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Final_Project_DAM</string>
+    <string name="hintusuario">Usuario</string>
+    <string name="hintPasswoord">Contraseña</string>
+    <string name="Ingresar">Ingresar</string>
+    <string name="Registrar">registrarse</string>
+    <string name="olvid_pass">¿Olvidaste tu contraseña?</string>
+    <string name="textspinner">Seleccione tipo de usuario:</string>
 </resources>

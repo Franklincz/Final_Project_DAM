@@ -8,9 +8,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".secondActivity"></activity>
-        <activity android:name=".MainActivity">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".IU.Interfaz_Cocinero"></activity>
+        <activity android:name=".IU.Login_cocinero" />
+        <activity android:name=".IU.Restore_password" />
+        <activity android:name=".IU.secondActivity" />
+        <activity android:name=".IU.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

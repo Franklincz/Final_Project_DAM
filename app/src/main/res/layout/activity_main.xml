@@ -1,28 +1,175 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    android:background="#FFF"
+    android:paddingTop="15dp"
+    tools:context=".IU.MainActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="194dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:src="@drawable/ic_launcher_background"></ImageView>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+       >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textuser"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:drawablePadding="12dp"
+            android:drawableLeft="@drawable/vector_person"
+            android:hint="@string/hintusuario"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+
+
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:drawablePadding="12dp"
+            android:drawableLeft="@drawable/vector_password"
+            android:hint="@string/hintPasswoord"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Our final project"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/textspinner"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="20dp"
+
+
+
+
+
+        ></TextView>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="367dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/style_spineer"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+
+
+
+
+
+
+
+        ></Spinner>
+
 
     <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
+        android:id="@+id/buttonIngresar"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="@string/Ingresar"
+        android:textColor="#fff"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/btn_style"
+        android:onClick="inSecActivity"
+
+        />
+
+
+
+
+
+    <TextView
+        android:id="@+id/textViewRecordarPass"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_vertical"
-        android:text="start app"
-        tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="465dp"></Button>
+        android:text="@string/olvid_pass"
+        android:layout_margin="25dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
 
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
