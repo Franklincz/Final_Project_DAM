@@ -13,4 +13,11 @@ public class Restore_password extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_restore_password);
     }
+
+
+
+
+
+
+
 }
